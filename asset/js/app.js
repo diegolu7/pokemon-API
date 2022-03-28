@@ -49,10 +49,13 @@ function buscar() {
     `;
 
       })
-      .catch(err => console.log(err));
+      .catch(err => alert("Nombre incorrecto"));
+
+
 
 
   } else {
-    alert("no hay datos");
+    alert("Ingrese nombre del Pokémon");
   }
 }
+
