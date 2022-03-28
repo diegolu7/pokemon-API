@@ -11,7 +11,8 @@ fetch(url)
 
     card.innerHTML = `
     <img src='${data.sprites.front_default}'/>
-    <p>El es ${data.name}, ${data.weight}kg, hincha de boquita  </p>
+    <p>El es ${data.name}, ${data.weight}kg, de tipo ${data.types[0].type.name}</p>
+
 
     `;
 
@@ -41,7 +42,8 @@ function buscar() {
 
         card.innerHTML = `
         <img src='${data.sprites.front_default}' />
-        <p>El es ${data.name}, ${data.weight}kg, hincha de boquita  </p>
+        <p>El es ${data.name}, ${data.weight}kg, de tipo ${data.types[0].type.name}</p>
+
 
 
 
