@@ -10,8 +10,8 @@ fetch(url)
     let card = document.getElementById('card');
 
     card.innerHTML = `
-    <h2> ${data.name} </h2> 
-        <h2> ${data.weight}kg </h2>
+    <p> ${data.name} </p> 
+        <p> ${data.weight}kg </p>
 
     <img src='${data.sprites.front_default}'/>
     `;
@@ -41,8 +41,8 @@ function buscar() {
         let card = document.getElementById('card');
 
         card.innerHTML = `
-    <h2> ${data.name} </h2> 
-    <h2> ${data.weight}kg </h2>
+    <p> ${data.name} </p> 
+    <p> ${data.weight}kg </p>
     
 
       <img src='${data.sprites.front_default}' />
