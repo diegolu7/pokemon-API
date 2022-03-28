@@ -23,11 +23,11 @@ fetch(url)
 
 function buscar() {
   //tomo el valor del input
-  let buscado.toLowerCaser() = document.querySelector("#input").value;
+  let buscado = document.querySelector("#input").value;
   let url = "https://pokeapi.co/api/v2/pokemon/";
-  
+
   if (buscado) {
-    url = url + buscado;
+    url = url + buscado.toLowerCase();
 
 
     //consultamos la api nuevamente con nueva url
