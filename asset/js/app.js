@@ -10,10 +10,9 @@ fetch(url)
     let card = document.getElementById('card');
 
     card.innerHTML = `
-    <p> ${data.name} </p> 
-        <p> ${data.weight}kg </p>
-
     <img src='${data.sprites.front_default}'/>
+    <p>El es ${data.name}, ${data.weight}kg, hincha de boquita  </p>
+
     `;
 
   })
@@ -41,11 +40,11 @@ function buscar() {
         let card = document.getElementById('card');
 
         card.innerHTML = `
-    <p> ${data.name} </p> 
-    <p> ${data.weight}kg </p>
-    
+        <img src='${data.sprites.front_default}' />
+        <p>El es ${data.name}, ${data.weight}kg, hincha de boquita  </p>
 
-      <img src='${data.sprites.front_default}' />
+
+
     `;
 
       })
@@ -58,4 +57,3 @@ function buscar() {
     alert("Ingrese nombre del Pokémon");
   }
 }
-
