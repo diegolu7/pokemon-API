@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body{
    margin: 0;
    padding: 0;
@@ -15,7 +13,7 @@ body{
  }
  h1{
    text-align: center;
-   font-family: 'Palette Mosaic', cursive;
+   font-family: 'Press Start 2P', cursive;
    color: #F1BF07;
     -webkit-text-stroke: 2px #357CAB;
     font-size: 2em;
@@ -31,13 +29,12 @@ body{
  .card{
    /* From https://css.glass */
 background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 
-font-family: 'Roboto', sans-serif;
+font-family: 'Press Start 2P', cursive;
 color: #000000;
 font-weight: bold;
 
@@ -52,7 +49,7 @@ width: 100%;
  }
 
  img{
-   width: 60%;
+   width: 70%;
 
  }
  h2{
@@ -61,14 +58,13 @@ width: 100%;
 
  .form{
    display:flex;
-   flex-direction: row;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
 
 
       /* From https://css.glass */
   background: rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -78,42 +74,50 @@ width: 100%;
    
  }
  .input{
-     border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
   height:3em;
-  margin: 1em;
-  font-size: 1em;
-  font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 5%;
+  margin-left: 5%;  
+  width: 90%;
 
-      background: rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
+  font-size: 1em;
+  font-weight: bold;
+
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgb(255, 255, 255);
+
+   font-family: 'Press Start 2P', cursive;
 
  }
  
  #boton{
-     border-radius: 16px;
 
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
+    border: none; 
+    background: #92CD41;
     display: inline-block;
-    font-size: 16px;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none; 
+    color: white;
+    box-shadow: inset 4px 4px 0px 0px #4AA52E;
 
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    height:2em;
+    margin-bottom: 0.5em;
+    margin-right: 5%;
+    margin-left: 5%;  
+    width: 90%;
 
  }
  #boton:hover{
-    background-color: #4caf4fb6; /* Green */
-    cursor: pointer;
+     background: #76c442;
+        box-shadow: inset 2.5px 2.5px 0px 0px #76c442;
+        cursor:pointer;
 
  }
+ 
