@@ -27,7 +27,8 @@ function buscar() {
 
   if (buscado) {
     url = url + buscado.toLowerCase();
-
+    const respuesta = document.getElementById("respuesta");
+    respuesta.innerHTML = "";
 
     //consultamos la api nuevamente con nueva url
 
