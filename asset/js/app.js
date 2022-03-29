@@ -13,7 +13,6 @@ fetch(url)
     <img src='${data.sprites.front_default}'/>
     <p>El es ${data.name}, ${data.weight}kg, de tipo ${data.types[0].type.name}</p>
 
-
     `;
 
   })
@@ -50,12 +49,19 @@ function buscar() {
     `;
 
       })
-      .catch(err => alert("Nombre incorrecto"));
+      .catch(err => danger());
 
 
 
 
   } else {
-    alert("Ingrese nombre del Pokémon");
+    const respuesta = document.getElementById("respuesta");
+    respuesta.innerHTML = "Debe ingresar un nombre";
   }
+}
+
+
+function danger() {
+  const respuesta = document.getElementById("respuesta");
+  respuesta.innerHTML = "Nombre incorrecto";
 }
