@@ -56,6 +56,7 @@ body{
   
     font-family: 'Press Start 2P', cursive;
   
+
    }
    
 #boton{
@@ -133,10 +134,16 @@ img{
   text-align: center;
   line-height: 30px; 
  }
-h3{
+
+ h3{
    margin-top: 10%;
    text-align: center;
   font-family: 'Press Start 2P', cursive;
   color: white;
   font-size: 1em;
  }
+ span{
+  background-color:rgb(241, 116, 116);
+  color: rgb(255, 255, 255);
+  font-family: 'Press Start 2P', cursive;
+}
